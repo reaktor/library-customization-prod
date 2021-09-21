@@ -24,7 +24,7 @@ landing:
 
 # partials/footer
 footer:
-  helpText: Questions? Contact your organization's administrators.
+  helpText: Questions? Suggestions? Join the discussion on <a target="blank" href="https://reaktor.slack.com/archives/C01EY585QB1">Reaktor Slack</a>.
   defaultEmail: user@your_organization.com
   buttons:
     edit: Edit This Page
