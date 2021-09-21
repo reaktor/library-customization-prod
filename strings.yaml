@@ -6,8 +6,8 @@ branding:
   name: Reaktor Library
   prettyName: Reaktor Library
   org: Reaktor
-  icon: /assets/images/icon-logo.svg
-  favicon: /assets/images/library.ico
+  icon: /assets/images/r-logo.gif
+  favicon: /assets/images/favicon.ico
 
 # pages/categories, pages/index, partials/search
 landing:
