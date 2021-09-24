@@ -1,3 +1,11 @@
+.masthead {
+  .container {
+    .user-tools {
+      background-color: rgba(34, 34, 34, 0.7);
+    }
+  }
+}
+
 .g-upper-body-title {
   @include smalldesktop {
     margin-left: calc(((100vw - 900px) / 2) - 20px);
