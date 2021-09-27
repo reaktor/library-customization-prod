@@ -53,6 +53,25 @@
   @include desktop {
     width: 200px;
   }
+
+  .children-view {
+    ul.children {
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    li {
+      text-indent: 0;
+      padding: 3px 5px 3px 0;
+      font-size: 15px;
+      line-height: 20px;
+      box-sizing: border-box;
+
+      a {
+        color: $black;
+      }
+    }
+  }
 }
 
 .g-body .g-main-content {
@@ -68,6 +87,23 @@
 
   p {
     margin-bottom: 20px;
+  }
+
+  .children-container {
+    @include desktop {
+      display: none;
+    }
+
+    .section-kicker {
+      font-family: $font-sans;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: $black;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 10px;
+      margin-left: -20px;
+    }
   }
 }
 
