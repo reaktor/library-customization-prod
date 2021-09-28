@@ -22,6 +22,11 @@
 
       <div class="g-main-content-wrapper">
         <div class="g-main-content">
+          <div class="table-of-contents">
+            <% if (locals.sections && locals.sections.length) { %>
+              <%- include('partials/sectionList') %>
+            <% } %>
+          </div>
           <% if (locals.content) { %>
           <%- content %>
           <% } %>
