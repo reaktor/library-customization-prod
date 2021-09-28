@@ -93,6 +93,35 @@
     margin: 0 10px 5px 0;
   }
 
+  code {
+    color: $gray-20;
+    background: $gray-80;
+  }
+
+  p code {
+    font-size: 16px;
+  }
+
+  pre + p {
+    margin-bottom: 0px;
+  }
+
+  pre {
+    background: $gray-80;
+    padding: 15px 5px 15px 0;
+    margin: -40px 15px 0 0;
+    max-width: 800px;
+    width: unset;
+
+    &:before {
+      display: none;
+    }
+
+    .line-number::before {
+      width: 1em;
+    }
+  }
+
   .image-wrapper {
     display: inline-block;
   }
