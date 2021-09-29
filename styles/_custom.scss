@@ -93,6 +93,14 @@
     margin-bottom: 20px;
   }
 
+  td p {
+    margin-bottom: 0;
+  }
+
+  table {
+    margin-bottom: 15px;
+  }
+
   p, ul, li, dt, dd {
     @include tablet{
       font-size: 1rem;
