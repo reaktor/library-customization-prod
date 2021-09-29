@@ -154,6 +154,16 @@
     }
   }
 
+  ul {
+    li {
+      &:before {
+        position: relative;
+        top: -2px;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
   .image-wrapper {
     display: inline-block;
 
