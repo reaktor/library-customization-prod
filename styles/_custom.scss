@@ -19,6 +19,11 @@
   }
 }
 
+.image-modal .img-wrapper .modal-image {
+  height: 100%;
+  object-fit: scale-down;
+}
+
 .g-upper-body-title {
   @include smalldesktop {
     margin-left: calc(((100vw - 900px) / 2) - 20px);
