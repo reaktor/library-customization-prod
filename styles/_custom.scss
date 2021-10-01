@@ -24,7 +24,7 @@
   object-fit: scale-down;
 }
 
-.g-upper-body-title {
+.g-upper-body-title, .g-upper-body .search-topper {
   @include smalldesktop {
     margin-left: calc(((100vw - 900px) / 2) - 20px);
   }
@@ -278,6 +278,10 @@
   .g-upper-body {
     max-width: 900px;
     margin-left: auto;
+  }
+
+  .search-topper {
+    margin-left: unset;
   }
 }
 
