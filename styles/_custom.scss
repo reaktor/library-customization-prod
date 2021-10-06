@@ -143,6 +143,10 @@
     margin-bottom: 0px;
   }
 
+  ul + p:not(:empty), ol + p:not(:empty) {
+    margin-top: 20px;
+  }
+
   pre {
     background: $gray-80;
     padding: 15px 5px 15px 0;
